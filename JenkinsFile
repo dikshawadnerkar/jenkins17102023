@@ -2,11 +2,6 @@ pipeline {
     agent any
 
     stages {
-        stage('Checkout') {
-            steps{
-                 git 'https://github.com/dikshawadnerkar/jenkins17102023.git'
-            }
-        }
         
         stage('Build') {
             steps{
