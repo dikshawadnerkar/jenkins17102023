@@ -18,4 +18,10 @@ public class TestController {
 		
 		return "Good Bye!!";
 	}
+	
+	@RequestMapping("/hi")
+	public String sayHi() {
+		
+		return "Hiii!!";
+	}
 }
