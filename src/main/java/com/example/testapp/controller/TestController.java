@@ -13,9 +13,9 @@ public class TestController {
 		return "Hello!!!";
 	}
 	
-	@RequestMapping(value = "/bye")
+	@RequestMapping("/bye")
 	public String sayBye() {
 		
-		return "Good Bye!!";
+		return "Bye!!";
 	}
 }
