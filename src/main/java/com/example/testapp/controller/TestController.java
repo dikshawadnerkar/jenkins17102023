@@ -24,4 +24,10 @@ public class TestController {
 		
 		return "Hiii Everyone!!";
 	}
+	
+	@RequestMapping("/greet")
+	public String greet() {
+		
+		return "Greetings!!";
+	}
 }
