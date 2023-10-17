@@ -11,4 +11,10 @@ public class TestController {
 		
 		return "Hello!!!";
 	}
+	
+	@GetMapping("/bye")
+	public String bye() {
+		
+		return "Bye!!";
+	}
 }
